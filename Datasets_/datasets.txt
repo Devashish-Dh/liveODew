@@ -3,3 +3,5 @@ https://snap.stanford.edu/data/soc-Epinions1.html	 -- Directed
 https://snap.stanford.edu/data/soc-Pokec.html 		 -- Directed
 
 https://snap.stanford.edu/data/com-Youtube.html		 -- Undirected	
+
+http://www.sociopatterns.org/datasets/ : the current data sets
