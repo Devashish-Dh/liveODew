@@ -20,7 +20,7 @@
 ### Centrality Visualization  
 <img src="media/centrality.png" width="500"/>  
 
-<img src="media/centralittes.gif" width="500"/>
+<img src="media/centralitites.gif" width="500"/>
 
 ### Demo:  
 <img src="media/sim_vid.gif" width="500"/>
