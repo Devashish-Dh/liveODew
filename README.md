@@ -1,26 +1,49 @@
-## 📌 Project Tracking  
-[Google Doc – Project Tracking](https://docs.google.com/document/d/1KIGjuDIvei_1Zp37cfFnY_JU1wY9CGw04cyIHRYPxWs/edit)
+# LiveODew
 
-## 📄 Report 1  
-[Google Doc – Report 1](https://docs.google.com/document/d/1ZU5PDYLBN0BoZzXguszbsY5vJB6EhdnBsCK9DGHMZLM/edit?usp=sharing)
+Capstone work on **epidemic and information-diffusion models** on networks: compartmental SIR/SIS-style dynamics, simple ODE “info spread” (SI), and graph visualizations (structure, centrality). Notebooks live under `Simulation_and_Models/`; datasets and references stay in their folders.
 
----
+## Title card
 
-### Title:  
-<img src="media/title_vid%20(2).gif" width="500"/>
+![Title animation](docs/media/title.gif)
 
-## 🎥 Demo & Visuals
+## Visuals
 
-### Datasets used:  
-<img src="media/datasets.png" width="500"/>
+**Datasets**
 
-### Graph Structure  
-<img src="media/graph_1.png" width="500"/>
+![Datasets](docs/media/datasets.png)
 
-### Centrality Visualization  
-<img src="media/centrality.png" width="500"/>  
+**Graph structure**
 
-<img src="media/centralitites.gif" width="500"/>
+![Graph structure](docs/media/graph.png)
 
-### Demo:  
-<img src="media/sim_vid.gif" width="500"/>
+**Centrality**
+
+![Centrality](docs/media/centrality.png)
+
+![Centrality animation](docs/media/centralities.gif)
+
+**Simulation demo**
+
+![Simulation](docs/media/simulation.gif)
+
+## Reports
+
+- [Capstone report (phase 2)](docs/reports/capstone-report-phase-2.pdf)
+- [Math of epidemiology and network science](docs/reports/capstone-math-epidemiology-network-science.pdf)
+- [Group project report](docs/reports/project-report-group-259.pdf)
+
+External tracking (Google Docs, if you still have access):
+
+- [Project tracking](https://docs.google.com/document/d/1KIGjuDIvei_1Zp37cfFnY_JU1wY9CGw04cyIHRYPxWs/edit)
+- [Report 1](https://docs.google.com/document/d/1ZU5PDYLBN0BoZzXguszbsY5vJB6EhdnBsCK9DGHMZLM/edit?usp=sharing)
+
+## Code
+
+| Path | Notes |
+| --- | --- |
+| [`Simulation_and_Models/Compartmental_models_of_disease_spread/`](Simulation_and_Models/Compartmental_models_of_disease_spread/) | SIR / SIS notebooks |
+| [`Simulation_and_Models/(SI)_very_simple_info_diffusion_using_ode/`](Simulation_and_Models/(SI)_very_simple_info_diffusion_using_ode/) | SI-style info diffusion (ODE) |
+| [`Datasets_/`](Datasets_/) | Data used in the notebooks |
+| [`References/`](References/) | Papers and notes |
+
+Open the `.ipynb` files in Jupyter. Folder names with parentheses are unchanged so existing notebook paths keep working.
